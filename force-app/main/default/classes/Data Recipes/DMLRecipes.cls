@@ -35,7 +35,7 @@ public with sharing class DMLRecipes {
      */
     public static void insertAccountViaInsertKeyword(String name) {
         Account acct = new Account();
-        acct.Name = name;
+        acct.Name = 'Abbas Jafry';
 
         try {
             if (CanTheUser.create(acct)) {
